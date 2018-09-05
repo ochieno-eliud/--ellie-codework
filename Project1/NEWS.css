@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}            
+                <!--sets everything by default to zero margin and zero padding -->
+
+.body{
+    width: 100%;
+    background-color: #e5e4e4;
+} 
+.subject_id{
+    border-style: inset;
+    background-image: url("PROJECTimgs/images008.jpg");
+}
+.subject_id h1{
+    padding: 5%;	
+    font-size: 142%;
+    font-family: Impact;
+    text-decoration: none;
+}
+.subject_id h1 a:link{
+    text-decoration: none;
+    padding: 2%;
+}
+.subject_id h1 a:hover{	
+       background-color: #A9A9A9;
+       text-decoration: none;
+       color: #fff;
+}
+.subject_id h1 a:active{
+	background-color: #c0c0c0;
+	text-shadow: none;
+	color: #405580;
+}
+.subject_id h1 a:visited{
+	text-decoration: none;
+	text-shadow: none;
+        color: #1b0780;
+}
+.content h1{
+    font-size: 132%;
+    font-family: Tahoma;
+    padding: auto;
+    margin-left: 3%;
+}
+.content h2{
+    font-size: 124%;
+    font-family: Tahoma;
+    padding: auto;
+    margin-left: 3%;
+}
+.content ul{
+    width: 60%;
+    margin: auto;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.content ul li{
+       font-size: 92.5%;
+       font-family: Tahoma;
+       padding: auto;
+       margin-right: 2%;
+       margin-left: 5%;
+       list-style: square;
+}
+ p{
+    font-size: 92.5%;
+    font-family: Tahoma;
+    margin: auto;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.content{
+    width: 70%;
+    margin: auto;
+    float: left;
+    background-color: #efeeee;
+    border-right: 1px solid #666;
+}           /***************INTERNAL LINKS***************/
+               
+ #h_links{
+        font-size: 87.5%;
+        font-family: Tahoma;
+        margin: auto;
+        margin-left: 5%;
+        margin-bottom: 4%;
+        padding-top: 3%;
+        padding-bottom: 0%;
+        display:inline;
+        float: left;
+        height: 40px;
+        background-color: #EAF2D3;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+}
+#h_links a:link{
+	color: #405580;
+        text-decoration: underline;
+}
+#h_links a:visited{
+	color: #8B0000;
+}
+#h_links a:hover{
+        background-color: #666;
+	color:#fff;
+        opacity: .5;
+}
+#h_links a:active{
+	background-color: #c0c0c0;
+	text-shadow: none;
+	color: #405580;
+}
+               /***************INTERNAL LINKS***************/
+aside{
+	width: 29.5%;
+	float: left;
+}
+.side_header{
+	background-color: #0c9580;
+        border-bottom: 2px solid black;
+	width: 100%;
+	margin: auto;
+        margin-right: 0;
+	text-decoration: none;
+	height: auto;
+	padding: 5% 1.4%;
+}
+.side_header h1{
+	font-size: 132%;
+        font-family: Impact;
+        text-decoration: none;
+	margin: auto;
+	padding: 2% 5%;
+        color: #800000;
+}
+.sidebar_content{
+	background-color: #F5F5DC;
+	width: 80%;
+	border-radius: 0 0 5px 5px;
+	margin: auto;
+        margin-right: 0;
+        margin-left: 6%;
+	padding: 2% 1.5%;
+	height:auto;
+ }
+.sidebar_content h2{
+	font-size: 124%;
+        font-family: Tahoma;
+        font-weight: bold;
+}
+.sidebar_content a:link{
+        text-decoration: none;
+	color: #008080;
+}
+.sidebar_content ul li{
+	font-size: 87.5%;
+        font-family: Tahoma;
+        font-weight: bold;
+        margin: .5% 0 0 12%;
+	padding: 0% 1.5%;
+        list-style: square;
+}
+.sidebar_content ul li a:visited{
+	color: #00008B;
+}
+.sidebar_content ul li a:hover{
+	background-color: #808080;
+	color:#fff;
+	font-weight: bold;
+        text-decoration: none;
+}
+.sidebar_content ul li a:active{
+	color: #405580;
+}
+           /********************SIDE NEWS********************/
+
+section{
+	border-top: 1px solid #000;
+        width: auto;
+        height: auto;
+	text-align: center;
+	margin: 2px 0px;
+	overflow:hidden;
+        padding: 1% 8%;
+	clear: both;
+}
+section h3{
+        font-size: 87.5%;
+        font-family: Garuda;
+        margin-bottom: 6px;
+}
+.social ul li a:link{
+	list-style: none;
+}
+.social li{
+	display: inline;
+}
+.social li img{
+        height: 6%;
+	margin: 0 1%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.designer_info a:link{
+        text-decoration: none;
+}
+.designer_info p{
+        text-align: right;
+        font-size: 82.5%;
+        font-family: Loma ;
+        color: #808080;
+        margin: 0px 8px;
+        text-decoration: none;
+}
+.main_footer_info{
+        width: 100%;
+	margin: auto;
+	text-align: center;
+	height: 80px;
+	overflow: hidden;
+	border-top: 2px solid #000;
+	border-radius: 0 0 5px 5px;
+	background-color: #666;
+        text-decoration: none;
+}
+.main_footer_info  p{
+        text-decoration: none;
+        font-size: 82.5%;
+        color: #222;
+}
