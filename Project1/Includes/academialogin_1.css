@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+        width: 100%;
+        height: auto;
+        background-color: #efeeee;
+}
+#content{
+       width: 80%;
+       margin-left: 60px;
+       margin-top: 60px;
+}
