@@ -62,7 +62,7 @@ ol h2 a:active{
 ol h2 a:visited{
 	text-decoration: none;
 	text-shadow: none;
-        color: #0c9580;
+        color: #2E8B57;
 }
 
 .content ol{
@@ -119,7 +119,7 @@ ul p a:link{
     display: block;
     color: #000080;
     text-decoration: none;
-    background-color: #0c9580;
+    background-color: #2E8B57;
     border-radius: 8px 8px;
 } 
 ul p a:visited{
@@ -215,7 +215,7 @@ ul p a:visited{
 }
 #table td a:hover{
        background-color: #DCDCDC;
-       color:#405580;
+       color:#2E8B57;
        text-decoration: none;
 }
 #table tr td a:active{
@@ -223,7 +223,7 @@ ul p a:visited{
 }
 #table tr th a:link{
        padding: 2% 3%;
-       color: #405580;	
+       color: #B0E0E6;	
        margin-top: 1%;
        margin-bottom: 1%;
        text-decoration: none;
@@ -287,7 +287,7 @@ ul p a:visited{
     text-align: left;
     padding: 3% 3% 2% 1%;
     border: 1px solid #666;
-    background-color: #0c9580;
+    background-color: #2E8B57;
     color: #fff;
 }
 #table tr.alt td{
@@ -308,7 +308,7 @@ aside{
 	text-decoration: none;
 }
 .news_header{
-        background-color: #0c9580;
+        background-color: #2E8B57;
         border-bottom: 2px solid black;
         width: 103.6%;;
         height: auto;
