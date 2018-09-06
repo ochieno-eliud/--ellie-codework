@@ -64,7 +64,7 @@
 .content ol li a:visited{
     text-decoration: none;
     text-shadow: none;
-    color: #0c9580;
+    color: #2E8B57;
 }
 .content ul{
     width: 80%;
@@ -210,7 +210,7 @@ aside{
 	text-decoration: none;
 }
 .news_header{
-        background-color: #0c9580;
+        background-color: #2E8B57;
         border-bottom: 2px solid black;
         width: 103.6%;;
         height: auto;
